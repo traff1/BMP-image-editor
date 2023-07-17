@@ -52,7 +52,7 @@ Program allows to:
 <table border="1">
   <tr>
     <th>Our image</th>
-    <th> <img src="https://github.com/traff1/BMP-image-editor/edit/main/README.md"></th>
+    <th> <img src="test-image.bmp"></th>
    </tr>
    <tr>
     <td>Ячейка 3</td>
