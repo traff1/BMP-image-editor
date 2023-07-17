@@ -42,4 +42,7 @@ Program allows to:
       </li>
     </ul>
   </li>
+  <li>
+    You can also call <i>-h</i> or <i>--help</i> for help;
+  </li>
 </ul>
