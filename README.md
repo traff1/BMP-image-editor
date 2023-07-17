@@ -56,14 +56,14 @@ Program allows to:
    </tr>
    <tr>
     <td>RGB Filter</td>
-    <td>Ячейка 4</td>
+    <td><img src="results/rgb-filter.bmp"></td>
   </tr>
    <tr>
     <td>Drawing Circle</td>
-    <td>Ячейка 4</td>
+    <td><img src="results/Draw-Circle.bmp"></td>
   </tr>
   <tr>
     <td>Division into parts</td>
-    <td>Ячейка 4</td>
+    <td><img src="results/Division-into-parts.bmp"></td>
   </tr>
 </table>
