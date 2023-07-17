@@ -23,12 +23,11 @@ Program allows to:
       <li>
         It`s possible by two ways:
         <li>
-          First shares straight line image 
+          First draws straight line image ( <i>-P</i> or <i>--drawParts</i> <i> keys </i> );
         </li>
         <li>
           
         </li>
-      </li>
   </ul>
   </li>
 </ul>
