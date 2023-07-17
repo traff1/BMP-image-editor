@@ -46,3 +46,6 @@ Program allows to:
     You can also call <i>-h</i> or <i>--help</i> for help;
   </li>
 </ul>
+
+
+<h2>Result of program:</h2>
