@@ -14,4 +14,7 @@ Program allows to:
   <ul>
     Get info about image. (<i> -i </i>  or  <i> --info </i> <i>keys</i> );
   </ul>
+  <ul>
+    change image color ( <i> -F </i> or <i> --rgbFilter </i> <i> keys </i> );
+  </ul>
 </li>
