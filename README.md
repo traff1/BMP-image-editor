@@ -49,3 +49,6 @@ Program allows to:
 
 
 <h2>Result of program:</h2>
+<table border="1">
+  
+</table>
