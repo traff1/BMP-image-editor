@@ -30,4 +30,16 @@ Program allows to:
         </li>
   </ul>
   </li>
+  <li>
+    Draw circle:
+    <ul>
+      It`s possible by two ways:
+      <li>
+        First draws circle by centre coordinates and radius ( <i>-D</i> or <i>--drawCircleByRadius</i> <i> keys </i> );
+      </li>
+      <li>
+        The second one draws circle by coordinates of the left top corner and right bottom corner ( <i>-S</i> or <i>--drawCircleBySquare</i> <i> keys </i> );
+      </li>
+    </ul>
+  </li>
 </ul>
