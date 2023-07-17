@@ -51,8 +51,8 @@ Program allows to:
 <h2>Result of program:</h2>
 <table border="1">
   <tr>
-    <th>Ячейка 1</th>
-    <th>Ячейка 2</th>
+    <th>Our image</th>
+    <th>src="https://github.com/traff1/BMP-image-editor/edit/main/README.md"</th>
    </tr>
    <tr>
     <td>Ячейка 3</td>
