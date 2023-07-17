@@ -26,7 +26,7 @@ Program allows to:
           First draws straight line image ( <i>-P</i> or <i>--drawParts</i> <i> keys </i> );
         </li>
         <li>
-          
+          The second one separates the image into files ( <i>-V</i> or <i>--saveParts</i> <i> keys </i> );
         </li>
   </ul>
   </li>
