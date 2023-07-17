@@ -10,11 +10,25 @@ This program is a Linux utility for editing BMP images version 3.
 
 Program allows to:
 <br>
-<li>
-  <ul>
+<ul>
+  <li>
     Get info about image. (<i> -i </i>  or  <i> --info </i> <i>keys</i> );
-  </ul>
-  <ul>
+  </li>
+  <li>
     change image color ( <i> -F </i> or <i> --rgbFilter </i> <i> keys </i> );
+  </li>
+  <li>
+    Split the image into pieces:
+  <ul>
+      <li>
+        It`s possible by two ways:
+        <li>
+          First shares straight line image 
+        </li>
+        <li>
+          
+        </li>
+      </li>
   </ul>
-</li>
+  </li>
+</ul>
