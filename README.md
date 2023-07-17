@@ -55,7 +55,15 @@ Program allows to:
     <th> <img src="test-image.bmp"></th>
    </tr>
    <tr>
-    <td>Ячейка 3</td>
+    <td>RGB Filter</td>
+    <td>Ячейка 4</td>
+  </tr>
+   <tr>
+    <td>Drawing Circle</td>
+    <td>Ячейка 4</td>
+  </tr>
+  <tr>
+    <td>Division into parts</td>
     <td>Ячейка 4</td>
   </tr>
 </table>
