@@ -423,28 +423,6 @@ void saveParts(BMP img, int xParts, int yParts, char* path){
     }
 }
 
-void outFill(BMP img, int x, int y, int h, int w, int r, int g, int b){
-    if(x<0 || y-h < 0 || x+w>img.bmih.biWidth || y+h>img.bmih.biHeight || y<0 || h < 0 || w < 0){
-        puts("Invalid value");
-        return;
-    }
-    if(r < 0 || r > 255 || g < 0 || g > 255 || b < 0 || b > 255){
-        puts("Invalid color");
-        return;
-    }
-
-
-    for(int i = 0; i < img.bmih.biHeight; i++){
-        for(int j = 0; j < img.bmih.biWidth; j++){
-            if((i <= y-h || j <= x) || (i > y || j > x+w)){
-                img.data[i][j].r = r;
-                img.data[i][j].g = g;
-                img.data[i][j].b = b;
-            }
-        }
-    }
-}
-
 void freeMem(BMP* img){
     for(unsigned int i = 0; i < img->bmih.biHeight; i++){
         free(img->data[i]);
@@ -747,9 +725,6 @@ int main(int argc, char* argv[]){
             case 'V':
                 config.SaveParts = 1;
                 break;
-            case 'L':
-                config.outFill = 1;
-                break;
             default:
                 puts("No such key.");
                 printHelp();
@@ -850,10 +825,6 @@ int main(int argc, char* argv[]){
         }
         saveParts(img, config.xParts, config.yParts, config.path);
         return 0;
-    }
-
-    if(config.outFill == 1){
-        outFill(img, config.x_left_top, config.y_left_top, config.height, config.width, config.r, config.g, config.b);
     }
 
     writeBMP(config.output, img);
