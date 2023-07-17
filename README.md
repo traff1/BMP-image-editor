@@ -12,6 +12,6 @@ Program allows to:
 <br>
 <li>
   <ul>
-    Get info about image.
+    Get info about image. (<i>-i</i> or <i>--info</i>);
   </ul>
 </li>
