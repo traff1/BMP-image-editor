@@ -1,4 +1,4 @@
-# BMP image editor
+# BMP
 >Terminal version of the game "2048"
 
 
