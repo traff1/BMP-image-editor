@@ -1,5 +1,5 @@
 
-<h1 align="center">BMP image editor</h1>
+# <h1 align="center">BMP image editor</h1>
 
 >This program is a Linux utility for editing BMP images version 3.
 
