@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>BMP image editor</h1>
+  #<h1>BMP image editor</h1>
 </div>
 
 >This program is a Linux utility for editing BMP images version 3.
